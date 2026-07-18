@@ -5,7 +5,6 @@ import numpy as np
 # Load dataset
 data = pd.read_csv("dataset.csv")
 
-
 # Remove missing values
 data = data.dropna()
 
@@ -110,3 +109,4 @@ print(data.head())
 
 print("\nFinal shape:")
 print(data.shape)
+
