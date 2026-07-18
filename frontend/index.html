@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Uber/Ola Fare Estimator
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+    <h1>
+        Uber/Ola Fare Estimator
+    </h1>
+
+
+    <label>
+        Distance (km)
+    </label>
+
+    <input 
+        type="number"
+        id="distance"
+        placeholder="Enter distance"
+        value="5"
+    >
+
+
+
+    <label>
+        Passenger Count
+    </label>
+
+    <input
+        type="number"
+        id="passenger"
+        value="1"
+        min="1"
+    >
+
+
+
+    <button onclick="predictFare()">
+        Estimate Fare
+    </button>
+
+
+
+    <div class="result">
+
+        <h2 id="result">
+            
+        </h2>
+
+    </div>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>

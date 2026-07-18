@@ -1,0 +1,91 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+
+# =========================
+# ML / Data files
+# =========================
+
+# Large datasets
+*.csv
+*.xlsx
+*.json
+
+# Model files
+*.pkl
+*.joblib
+
+# Saved ML artifacts
+models/
+model/
+
+
+# =========================
+# FastAPI
+# =========================
+
+*.log
+
+
+# =========================
+# Frontend
+# =========================
+
+node_modules/
+dist/
+build/
+
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# IDE files
+# =========================
+
+.vscode/
+.idea/
+
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.swp
+*.swo
